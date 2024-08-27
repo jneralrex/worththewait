@@ -24,8 +24,8 @@ const Modal = ({ closeModal }) => {
           <TfiClose
             onClick={closeModal}
             className="close-btn"
-            size={40}
-            style={{ position: "fixed", right: "0", top: "9" }}
+            size={30}
+            style={{ position: "fixed", left: "91%", top: "9" }}
           />
           <div className="modal-content">
             <p>Join us on our journey to forever.</p>

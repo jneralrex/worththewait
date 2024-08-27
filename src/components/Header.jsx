@@ -4,7 +4,7 @@ import "../assets/styles/Header.css";
 import { Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { FaClockRotateLeft, FaGift, FaImages } from "react-icons/fa6";
-import Logo from "../assets/images/Screenshot_2024-08-26_at_00.30.46-removebg-preview.png";
+import Logo from "../assets/images/logo.png";
 import Giftoption from "../components/Giftoption";
 
 

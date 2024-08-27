@@ -4,10 +4,10 @@ import Header from "../components/Header";
 import Modal from "../components/Modal";
 import { TfiCalendar, TfiMusicAlt } from "react-icons/tfi";
 import { FaChurch } from "react-icons/fa6";
-import FrameOne from "../assets/images/Screenshot 2024-08-27 at 13.23.52.png";
-import FrameTwo from "../assets/images/image-241x369 (3).jpg";
-import Flower from "../assets/images/rs-layer-wrap-→-rs-layer-→-rev-flower-img.png.png";
-import Leaf from "../assets/images/section-title-img-1.png";
+import FrameOne from "../assets/images/frame2.webp";
+import FrameTwo from "../assets/images/frame1.webp";
+import Flower from "../assets/images/flower.png";
+import Leaf from "../assets/images/leaf.png";
 import emailjs from '@emailjs/browser';
 import Snackbar from "../components/Snackbar";
 

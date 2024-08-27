@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/Footer.css";
 import { FaTag } from "react-icons/fa6";
 import { FiMessageSquare } from "react-icons/fi";
-import Logo from "../assets/images/Screenshot_2024-08-26_at_00.30.46-removebg-preview.png";
+import Logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (

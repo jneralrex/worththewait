@@ -43,6 +43,7 @@ select{
         justify-content: space-evenly;
         box-shadow: 0px 2px 3px 0px grey;
         align-items: center;
+        height: 100px;
     }
 
     .logoImg {
@@ -103,6 +104,7 @@ select{
         justify-content: space-evenly;
         box-shadow: 0px 2px 4px 0px grey;
         align-items: center;
+        height: 100px;
     }
 
     .logoImg {
@@ -155,10 +157,11 @@ select{
         color: black;
         display: flex;
         position: fixed;
-        z-index: 1;
+        z-index: 99;
         justify-content: space-evenly;
         box-shadow: 0px 2px 4px 0px grey;
         align-items: center;
+        height: 100px;
     }
 
     .logoImg {
