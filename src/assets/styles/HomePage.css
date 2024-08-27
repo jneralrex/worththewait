@@ -1,0 +1,907 @@
+@font-face {
+    font-family: learning-curve;
+    src: url(../font/LearningCurve.ttf);
+}
+
+@font-face {
+    font-family: mulish-san-serif;
+    src: url(../font/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: cormorant;
+    src: url(../font/Cormorant-VariableFont_wght.ttf);
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1440px) {
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .homePage {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .banner-img {
+        width: 100%;
+        background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(../images/banner.jpg);
+        height: 650px;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 60px;
+    }
+
+    .announcement-holder-outter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .announcement {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hash-tag {
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .invite-board {
+        background: rgb(226, 238, 248);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .frameOne {
+        position: absolute;
+        margin-top: 500px;
+        height: 300px;
+    }
+    .frameTwo {
+        position: absolute;
+        right: 0;
+        margin-top: 600px;
+        height: 300px;
+    }
+
+    .flower {
+        position: absolute;
+        margin-top: -630px;
+        margin-left: 445px;
+        left: 0;
+    }
+
+    .leaf-holder {
+        position: absolute;
+        margin-top: 927px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .invite-board-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .invite-holder {
+        margin-left: 690px;
+    }
+
+    .announcement-01 {
+        text-align: left;
+        margin: 0 auto;
+        font-family: learning-curve;
+        font-size: 40px;
+    }
+
+    .invite-note {
+        text-align: left;
+        font-size: 14px;
+        margin: 10px auto;
+        line-height: 1.7;
+        width: 320px;
+        font-family: mulish-san-serif;
+        margin-left: -4px;
+    }
+
+    .hash-tag-one {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: learning-curve;
+        font-size: 25px;
+        color: #b579f1;
+    }
+
+    .color-of-the-day {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: cormorant;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .colors {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: mulish-san-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(129, 132, 145);
+    }
+
+    .question {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .form-area {
+        color: rgb(177, 109, 240);
+        box-shadow: 0px 2px 2px 0px rgb(233, 228, 228);
+        padding: 10px;
+        background-color: #f5f3ff;
+        width: 400px;
+        margin-top: -700px;
+        margin-left: 260px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        z-index: 1;
+    }
+
+    .form-block {
+        display: block;
+        margin: auto 10px;
+    }
+
+    .form-input-group,
+    .form-input-btn {
+        margin: 20px auto;
+    }
+
+    .form-input-group>input {
+        height: 50px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>input::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>input:focus {
+        height: 50px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+
+    }
+
+    .radio-area {
+        display: flex;
+    }
+
+    .radio-area>input {
+        background-color: #f5f3ff;
+    }
+
+    .radio-area p {
+        margin: auto 3px;
+    }
+
+    .check-area {
+        margin: 15px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .check-input {
+        display: flex;
+        font-size: 13px;
+    }
+
+    .check-input>input {
+        margin: 1px;
+        background-color: #f5f3ff;
+    }
+
+    .check-input>p {
+        margin: auto 3px;
+    }
+
+    .form-input-group>textarea {
+        height: 100px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>textarea::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>textarea:focus {
+        height: 100px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+    }
+
+    .form-input-btn>input {
+        padding: 15px;
+        width: 150px;
+        background: rgb(177, 109, 240);
+        border: none;
+        color: #f1f1f1;
+    }
+
+    .schedule {
+        margin: auto 10px;
+        background-color: white;
+    }
+
+    .event-holder {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .event {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .schedule-inner {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .schedule-inner>p {
+        font-size: 40px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .schedule-inner>span {
+        font-size: 20px;
+        color: goldenrod;
+    }
+
+    .icons {
+        margin: 20px auto;
+        align-items: center;
+    }
+
+    .location {
+        margin: 20px auto;
+        font-size: 18px;
+        width: 320px;
+        line-height: 1.7;
+        color: gray;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .homePage {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .banner-img {
+        width: 100%;
+        background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(../images/banner.jpg);
+        height: 600px;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 50px;
+    }
+
+    .announcement-holder-outter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .announcement {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hash-tag {
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .invite-board {
+        background: rgb(226, 238, 248);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .frameleft {
+        height: 250px;
+    }
+
+    .frameTwo {
+        position: absolute;
+        right: 0;
+        margin-top: 650px;
+        height: 300px;
+    }
+
+    .flower {
+        position: absolute;
+        margin-top: -750px;
+        margin-left: 300px;
+        left: 0;
+    }
+
+    .leaf-holder {
+        position: absolute;
+        margin-top: 868px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .invite-board-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .invite-holder {
+        margin-left: 430px;
+    }
+
+    .announcement-01 {
+        text-align: left;
+        margin: 0 auto;
+        font-family: learning-curve;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .invite-note {
+        text-align: left;
+        font-size: 12px;
+        margin: 10px auto;
+        line-height: 1.7;
+        min-width: 130px;
+        font-family: mulish-san-serif;
+        margin-left: -4px;
+    }
+
+    .hash-tag-one {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: learning-curve;
+        font-size: 25px;
+        color: #b579f1;
+        font-weight: 500;
+    }
+
+    .color-of-the-day {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: cormorant;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .colors {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: mulish-san-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(129, 132, 145);
+    }
+
+    .question {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .form-area {
+        color: rgb(177, 109, 240);
+        box-shadow: 0px 2px 2px 0px rgb(233, 228, 228);
+        background-color: #f5f3ff;
+        width: 400px;
+        margin-top: -700px;
+        margin-left: 180px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        z-index: 1;
+    }
+
+    .form-block {
+        display: block;
+        margin: auto 10px;
+    }
+
+    .form-input-group,
+    .form-input-btn {
+        margin: 20px auto;
+    }
+
+    .form-input-group>input {
+        height: 50px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>input::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>input:focus {
+        height: 50px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+
+    }
+
+    .radio-area {
+        display: flex;
+    }
+
+    .radio-area>input {
+        background-color: #f5f3ff;
+    }
+
+    .radio-area p {
+        margin: auto 3px;
+    }
+
+    .check-area {
+        margin: 15px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .check-input {
+        display: flex;
+        font-size: 13px;
+    }
+
+    .check-input>input {
+        margin: 1px;
+        background-color: #f5f3ff;
+    }
+
+    .check-input>p {
+        margin: auto 3px;
+    }
+
+    .form-input-group>textarea {
+        height: 100px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>textarea::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>textarea:focus {
+        height: 100px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+    }
+
+    .form-input-btn>input {
+        padding: 15px;
+        width: 150px;
+        background: rgb(177, 109, 240);
+        border: none;
+        color: #f1f1f1;
+    }
+
+    .schedule {
+        background-color: white;
+    }
+
+    .event-holder {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .event {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .schedule-inner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .schedule-inner>p {
+        font-size: 40px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .schedule-inner>span {
+        font-size: 20px;
+        color: goldenrod;
+    }
+
+    .icons {
+        margin: 20px auto;
+        align-items: center;
+    }
+
+    .location {
+        margin: 15px auto;
+        font-size: 18px;
+        width: 250px;
+        line-height: 1.7;
+        color: gray;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .homePage {
+        background-color: hwb(250 95% 0%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .banner-img {
+        width: 100%;
+        background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(../images/banner.jpg);
+        height: 600px;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .announcement-holder-outter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .announcement {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0 auto;
+        color: white;
+        margin-bottom: 20px;
+        font-family: mulish-san-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        font-kerning: auto;
+        font-optical-sizing: auto;
+        font-stretch: 100%
+    }
+
+    .hash-tag {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        font-family: mulish-san-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        font-kerning: auto;
+        font-optical-sizing: auto;
+        font-stretch: 100%
+    }
+
+    .invite-board {
+        background: rgb(226, 238, 248);
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invite-board-inner {
+        margin: 10px;
+    }
+
+    .frameOne {
+        display: none;
+    }
+
+    .leaf-holder {
+        position: absolute;
+        margin-top: 700px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .announcement-01 {
+        text-align: center;
+        margin: 0 auto;
+        font-family: learning-curve;
+        font-size: 36px;
+    }
+
+    .invite-note {
+        text-align: center;
+        font-size: 13px;
+        margin: 10px auto;
+        line-height: 1.5;
+        font-family: mulish-san-serif;
+        width: 399px;
+    }
+
+    .hash-tag-one {
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: learning-curve;
+        font-size: 25px;
+        color: #b579f1;
+
+    }
+
+    .color-of-the-day {
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: cormorant;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .colors {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(129, 132, 145);
+    }
+
+    .question {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .form-area {
+        color: rgb(177, 109, 240);
+        box-shadow: 0px 2px 2px 0px rgb(233, 228, 228);
+        padding: 10px;
+    }
+
+    .form-block {
+        display: block;
+        margin: auto 10px;
+    }
+
+    .form-input-group,
+    .form-input-btn {
+        margin: 20px auto;
+    }
+
+    .form-input-group>input {
+        height: 50px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>input::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>input:focus {
+        height: 50px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+
+    }
+
+    .radio-area {
+        display: flex;
+    }
+
+    .radio-area>input {
+        background-color: #f5f3ff;
+    }
+
+    .radio-area p {
+        margin: auto 3px;
+    }
+
+    .check-area {
+        margin: 15px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .check-input {
+        display: flex;
+        font-size: 13px;
+    }
+
+    .check-input>input {
+        margin: 1px;
+        background-color: #f5f3ff;
+    }
+
+    .check-input>p {
+        margin: auto 3px;
+    }
+
+    .form-input-group>textarea {
+        height: 100px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+
+    .form-input-group>textarea::placeholder {
+        color: rgb(177, 109, 240);
+    }
+
+    .form-input-group>textarea:focus {
+        height: 100px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+    }
+
+    .form-input-btn>input {
+        padding: 15px;
+        width: 150px;
+        background: rgb(177, 109, 240);
+        border: none;
+        color: #f1f1f1;
+    }
+
+    .schedule {
+        margin: auto 10px;
+    }
+
+    .schedule-inner {
+        margin: 70px auto;
+        text-align: center;
+        width: 220px;
+    }
+
+    .schedule-inner>p {
+        font-size: 25px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .schedule-inner>span {
+        font-size: 20px;
+        color: #cb8c83;
+        font-family: cormorant;
+    }
+
+    .icons {
+        margin: 20px auto;
+        align-items: center;
+    }
+
+    .location {
+        margin: 20px auto;
+        font-size: 12px;
+        width: 205px;
+        line-height: 1.7;
+    }
+}

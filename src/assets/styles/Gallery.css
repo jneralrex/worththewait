@@ -1,0 +1,349 @@
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .image-holder-outter {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        justify-content: center;
+        gap: 5px;
+        margin: auto;
+    }
+
+    .image-holder-inner {
+        height: 350px;
+        margin: 5px;
+        background-color: black;
+    }
+
+    .photos {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+    }
+
+    .photos::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos:hover {
+        opacity: 0.6;
+    }
+
+    .photos:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    .image-holder-outter1 {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        justify-content: center;
+        gap: 5px;
+        margin: auto;
+    }
+
+    .image-holder-inner1 {
+        height: 600px;
+        margin: 5px;
+        background-color: black;
+    }
+
+    .photos1 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+    }
+
+    .photos1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos1:hover {
+        opacity: 0.6;
+    }
+
+    .photos1:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    @keyframes fadeInScale {
+        0% {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .image-holder-outter {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .image-holder-inner {
+        width: 100%;
+        margin: 10px;
+        background-color: black;
+    }
+
+
+    .photos {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+    }
+
+    .photos::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos:hover {
+        opacity: 0.6;
+    }
+
+    .photos:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    .image-holder-outter1 {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        justify-content: center;
+        gap: 5px;
+        margin: auto;
+    }
+
+    .image-holder-inner1 {
+        height: 350px;
+        margin: 5px;
+        background-color: black;
+    }
+
+    .photos1 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+
+    }
+
+    .photos1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos1:hover {
+        opacity: 0.6;
+    }
+
+    .photos1:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    @keyframes fadeInScale {
+        0% {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .image-holder-outter {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .image-holder-inner {
+        width: 100%;
+        margin: 10px;
+        background-color: black;
+    }
+
+    .photos {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+    }
+
+    .photos::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos:hover {
+        opacity: 0.6;
+    }
+
+    .photos:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    @keyframes fadeInScale {
+        0% {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    .image-holder-outter1 {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .image-holder-inner1 {
+        width: 100%;
+        margin: 10px;
+        background-color: black;
+    }
+
+    .photos1 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 2s ease;
+        position: relative;
+    }
+
+    .photos1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+        transition: background-color 2s ease;
+        z-index: 1;
+    }
+
+    .photos1:hover {
+        opacity: 0.6;
+    }
+
+    .photos1:hover::before {
+        background-color: rgba(0, 0, 0);
+    }
+
+    @keyframes fadeInScale {
+        0% {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

@@ -1,0 +1,259 @@
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .main {
+        background-color: aliceblue;
+    }
+
+    .footer-outter {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-inner {
+        height: 300px;
+        align-items: center;
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-qoute {
+        margin-top: 10px;
+        width: 220px;
+        align-items: center;
+        color: hsl(51, 88%, 30%);
+        font-style: italic;
+    }
+
+    .divider {
+        margin-top: -27px;
+        margin-bottom: 20px;
+        font-weight: 400;
+
+    }
+
+    .divider>p {
+        margin-top: -78px;
+    }
+
+    .color-and-tag {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        gap: 10px;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        gap: 10px;
+        color: #808080;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .color-name {
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .footerLogoImg {
+        display: flex;
+        height: 180px;
+        justify-self: left;
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .main {
+        background-color: aliceblue;
+    }
+
+    .footer-outter {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-inner {
+        height: 300px;
+        align-items: center;
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-qoute {
+        margin-top: 10px;
+        width: 220px;
+        align-items: center;
+        color: hsl(51, 88%, 30%);
+        font-style: italic;
+    }
+
+    .divider {
+        margin-top: -27px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        width: 160px;
+    }
+
+    .divider>p {
+        margin-top: -78px;
+    }
+
+    .color-and-tag {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        gap: 10px;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        gap: 10px;
+        color: #808080;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .color-name {
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .footerLogoImg {
+        display: flex;
+        height: 180px;
+        justify-self: left;
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .main {
+        background-color: aliceblue;
+    }
+
+    .footer-outter {
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-inner {
+        height: 400px;
+        align-items: center;
+        width: 80%;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .footer-qoute {
+        margin-top: 10px;
+        width: 220px;
+        align-items: center;
+        color: hsl(51, 88%, 30%);
+        font-style: italic;
+    }
+
+    .divider {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        font-weight: 400;
+    }
+
+    .color-and-tag {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #808080;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .color-name {
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .footerLogoImg {
+        display: flex;
+        height: 150px;
+        justify-self: left;
+        margin-left: -30px;
+    }
+}
