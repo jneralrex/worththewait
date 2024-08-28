@@ -6,8 +6,8 @@ import { TfiCalendar, TfiMusicAlt } from "react-icons/tfi";
 import { FaChurch } from "react-icons/fa6";
 import FrameOne from "../assets/images/frame2.webp";
 import FrameTwo from "../assets/images/frame1.webp";
-import Flower from "../assets/images/flower.png";
-import Leaf from "../assets/images/leaf.png";
+import Flower from "../assets/images/flower.webp";
+import Leaf from "../assets/images/leaf.webp";
 import emailjs from '@emailjs/browser';
 import Snackbar from "../components/Snackbar";
 

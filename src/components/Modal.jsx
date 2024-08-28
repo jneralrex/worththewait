@@ -25,7 +25,7 @@ const Modal = ({ closeModal }) => {
             onClick={closeModal}
             className="close-btn"
             size={30}
-            style={{ position: "fixed", left: "91%", top: "9" }}
+            style={{ position: "fixed", top: "9" }}
           />
           <div className="modal-content">
             <p>Join us on our journey to forever.</p>

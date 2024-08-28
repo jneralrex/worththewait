@@ -4,7 +4,7 @@ import "../assets/styles/Header.css";
 import { Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { FaClockRotateLeft, FaGift, FaImages } from "react-icons/fa6";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.webp";
 import Giftoption from "../components/Giftoption";
 
 

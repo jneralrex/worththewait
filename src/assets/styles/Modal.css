@@ -47,8 +47,10 @@
     }
 
     .close-btn {
+        display: flex;
         z-index: 999;
         color: white;
+        right: 0;        
     }
     .time{
         display: flex;
@@ -107,9 +109,12 @@
     }
 
     .close-btn {
+        display: flex;
         z-index: 999;
         color: white;
+        right: 0;        
     }
+
     .time{
         display: flex;
         align-items: center;
@@ -157,10 +162,11 @@
         font-weight: 400;
         font-size: 35px;
     }
-
-    .close-btn {
+   .close-btn {
+        display: flex;
         z-index: 999;
         color: white;
+        right: 0;        
     }
     .time{
         display: flex;

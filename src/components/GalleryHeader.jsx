@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../assets/styles/Header.css";
 import { Outlet, NavLink } from "react-router-dom";
 import { FaClockRotateLeft, FaGift, FaHouseChimney } from "react-icons/fa6";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.webp";
 import Giftoption from "../components/Giftoption";
 
 const GalleryHeader = () => {
