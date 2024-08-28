@@ -44,11 +44,11 @@ const HomePage = () => {
 
     try {
       await emailjs.send(  
-      process.env.REACT_APP_EMAILJS_SERVICE_ID,
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      "service_9ty9pdp",
+      "template_05346mw",
       formData,
-       process.env.REACT_APP_EMAILJS_USER_ID
-      );
+      "WsY88nsD5sCRrjvVI"
+    );
       setSnackbar({ message: "RSVP submitted successfully!", type: "success" });
       setFormData({
         name: "",
