@@ -42,20 +42,22 @@ const Header = () => {
     <div>
       <nav>
         <div className="logo">
+          <NavLink to="/">
           <img src={Logo} alt="" className="logoImg" />
+          </NavLink>
         </div>
         <div className="nav-items">
           <NavLink to="/gallery">
-            <div className="gallery navBtn">
-              <FaImages size={20} style={{ color: "lightBlue" }} />
+            <div className="gallery ">
+              <FaImages size={15} style={{ color: "lightBlue" }} />
               Gallery
             </div>
           </NavLink>
           <div className="gift navBtn">
-            <FaGift style={{ color: "purple" }} /> <Giftoption/>
+            <FaGift  size={15}  style={{ color: "purple" }} /> <Giftoption/>
             </div>
           <div className="timeCounter navBtn">
-            <FaClockRotateLeft style={{ color: "red" }} />
+            <FaClockRotateLeft size={15}  style={{ color: "red" }} />
             {timeRemaining}
           </div>
         </div>

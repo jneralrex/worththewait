@@ -40,20 +40,22 @@ const GalleryHeader = () => {
     <div>
       <nav>
         <div className="logo">
+        <NavLink to="/">
           <img src={Logo} alt="" className="logoImg" />
+        </NavLink>
         </div>
         <div className="nav-items">
           <NavLink to="/">
-            <div className="gallery navBtn">
-              <FaHouseChimney style={{ color: "lightBlue" }} />
+            <div className="gallery">
+              <FaHouseChimney size={15}  style={{ color: "lightBlue" }} />
               Home
             </div>
           </NavLink>
             <div className="gift navBtn">
-            <FaGift style={{ color: "purple" }} /> <Giftoption/>
+            <FaGift size={15}  style={{ color: "purple" }} /> <Giftoption/>
             </div>
           <div className="timeCounter navBtn">
-            <FaClockRotateLeft style={{ color: "red" }} />
+            <FaClockRotateLeft size={15}  style={{ color: "red" }} />
             {timeRemaining}
           </div>
         </div>
