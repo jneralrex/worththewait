@@ -23,4 +23,6 @@
   .snackbar.error {
     background-color: red;
   }
-  
+  button{
+    background-color: none;
+  }
