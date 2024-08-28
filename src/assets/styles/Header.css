@@ -212,7 +212,7 @@ select{
     .gallery{
         height: 25px;
         padding: 2px;
-        margin: 2px;
+        margin-left: -4px;
         text-align: center;
         font-size: 9px;
         font-weight: 600;
