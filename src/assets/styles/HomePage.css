@@ -739,10 +739,10 @@
     .invite-note {
         text-align: center;
         font-size: 13px;
-        margin: 10px auto;
+        margin: auto;
         line-height: 1.5;
         font-family: mulish-san-serif;
-        width: 380px;
+        width: 90%;
     }
 
     .hash-tag-one {
