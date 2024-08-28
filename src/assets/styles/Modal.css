@@ -166,7 +166,8 @@
         display: flex;
         z-index: 999;
         color: white;
-        right: 0;        
+        margin-right: 20px; 
+        right: 0;       
     }
     .time{
         display: flex;

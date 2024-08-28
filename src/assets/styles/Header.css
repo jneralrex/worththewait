@@ -165,16 +165,16 @@ select{
     .nav-items {
         display: flex;
         align-items: center;
-        width: 80%;
+        width: 90%;
         justify-content: space-evenly;
     }
 
     .navBtn {
         height: 25px;
         padding: 3px;
-        margin: 1px;
+        margin-left: -5px;
         text-align: center;
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 600;
         font-family: InterSanSerif;
         display: flex;
