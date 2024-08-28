@@ -181,7 +181,7 @@ select{
         box-shadow: 1px 1px 1px 1px grey;
         border-radius: 10px;
         justify-content: space-around;
-        width: 120px;
+        width: 110px;
         align-items: center;
     }
 }
