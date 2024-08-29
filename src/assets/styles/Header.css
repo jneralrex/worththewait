@@ -261,8 +261,7 @@ select{
         align-items: center;
         width: 90%;
         justify-content: space-evenly;
-        border: 1px solid black;
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     .navBtn {
