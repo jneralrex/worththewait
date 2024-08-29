@@ -252,7 +252,8 @@ select{
     }
 
     .logoImg {
-        height: 50px;
+        height: 70px;
+        margin-left: -10px;
     }
 
     .nav-items {
@@ -260,21 +261,21 @@ select{
         align-items: center;
         width: 90%;
         justify-content: space-evenly;
+        margin-left: -20px;
     }
 
     .navBtn {
         height: 25px;
         padding: 2px;
-        margin: 2px;
         text-align: center;
-        font-size: 9px;
+        font-size: 12px;
         font-weight: 600;
         font-family: InterSanSerif;
         display: flex;
         box-shadow: 1px 1px 1px 1px grey;
         border-radius: 10px;
         justify-content: space-around;
-        width: 110px;
+        width: 120px;
         align-items: center;
     }
     .gallery{
@@ -282,7 +283,7 @@ select{
         padding: 2px;
         margin-left: -4px;
         text-align: center;
-        font-size: 9px;
+        font-size: 12px;
         font-weight: 600;
         font-family: InterSanSerif;
         display: flex;

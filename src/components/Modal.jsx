@@ -29,7 +29,7 @@ const Modal = ({ closeModal }) => {
           />
           <div className="modal-content">
             <p>Join us on our journey to forever.</p>
-            <p>#WorthTheWait.</p>
+            <p>#AtTheBeginning.</p>
             <p className="time">{countdown}</p>
           </div>
         </div>
