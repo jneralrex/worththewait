@@ -52,7 +52,7 @@ const GalleryHeader = () => {
             </div>
           </NavLink>
             <div className="gift navBtn">
-            <FaGift size={15}  style={{ color: "purple" }} /> <Giftoption/>
+            <FaGift  size={15}  style={{ color: "purple", marginLeft:"10px"}} /> <Giftoption/>
             </div>
           <div className="timeCounter navBtn">
             <FaClockRotateLeft size={15}  style={{ color: "red" }} />

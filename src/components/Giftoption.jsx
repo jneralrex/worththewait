@@ -22,7 +22,7 @@ const Giftoption = () => {
       defaultValue=""
     >
       <option value="" className="defaultOPt" disabled>
-        Want to gift us?
+        Gift for us?
       </option>
       <option value="cash">Cash</option>
       <option value="buyGift">Buy a gift</option>
