@@ -261,6 +261,7 @@ select{
         align-items: center;
         width: 90%;
         justify-content: space-evenly;
+        border: 1px solid black;
         margin-left: -20px;
     }
 
@@ -276,7 +277,7 @@ select{
         box-shadow: 1px 1px 1px 1px grey;
         border-radius: 10px;
         justify-content: space-around;
-        width: 120px;
+        width: 115px;
         align-items: center;
     }
     .gallery{
