@@ -155,13 +155,13 @@ const Gallery = () => {
               <img src={courtWedding3} alt="" className="photos1" />
             </div>
             <div className="image-holder-inner1">
-              <img src={courtWedding4} alt="" className="photos1" />
+            <img src={courtWedding6} alt="" className="photos1" />
             </div>
             <div className="image-holder-inner1">
               <img src={courtWedding5} alt="" className="photos1" />
             </div>
             <div className="image-holder-inner1">
-              <img src={courtWedding6} alt="" className="photos1" />
+            <img src={courtWedding4} alt="" className="photos1" />
             </div>
             <div className="image-holder-inner1">
               <img src={courtWedding1} alt="" className="photos1" />
