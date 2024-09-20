@@ -965,7 +965,7 @@
 
     .banner-img {
         background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url(../images/banner.webp);
-        height: 670px;
+        height: 620px;
         display: flex;
         align-items: center;
         background-repeat: no-repeat;
